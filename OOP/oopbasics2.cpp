@@ -44,7 +44,7 @@ public: //accesible anywhere in the program
                                 // without the 'virtual' keyword the function called by employee pointer 
                                 // will always run this function and not the specific function specified in respective derived classes
     {
-        std::cout<<"Talk to head manager personally to enquire whether you can get a promotion or not.";
+        std::cout<<"Talk to head manager personally to inquire whether you can get a promotion or not.";
     }
 };
 
