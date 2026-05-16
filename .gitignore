@@ -21,6 +21,8 @@
 *.so
 *.dylib
 *.dll
+*.so.*
+
 
 # Fortran module files
 *.mod
@@ -37,5 +39,56 @@
 *.out
 *.app
 
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# package managers
+vcpkg_installed/
+.conan/
+
 # debug information files
 *.dwo
+
+# test output & cache
+Testing/
+testing/
+.cache/
+
+# CP input/output
+input.txt
+output.txt
+
+# Large data/logs
+*.log
+*.data
+
+# IDE and Debugger metadata
+.vscode/
+.history/
+*.code-workspace
+.ionide/
+
+# macOS Debugger/Search indexes
+.DS_Store
+.AppleDouble
+.LSOverride
+*.dSYM/
+.Spotlight-V100
+.Trashes
+*.dSYM
