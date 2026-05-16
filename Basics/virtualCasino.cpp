@@ -10,7 +10,7 @@ void play()
     arr[1]='J';
     arr[2]='K';
 
-    std::cout << "Shuffuling...\n";
+    std::cout << "Shuffling...\n";
     srand(time(0));
     for (int i = 0; i < 5; i++)
     {
@@ -44,7 +44,7 @@ void play()
         if(arr[choice-1]=='K')
         {
             cash=cash+3*bet;
-            std::cout<<"Congrats! You win, cash equal to three times your bat has been depoited into your account.\n";
+            std::cout<<"Congrats! You win, cash equal to three times your bat has been deposited into your account.\n";
 
         }
         else
@@ -59,7 +59,7 @@ void play()
         if(arr[choice-1]=='J')
         {
             cash=cash+3*bet;
-            std::cout<<"Congrats! You win, cash equal to three times your bat has been depoited into your account.\n\n\n";
+            std::cout<<"Congrats! You win, cash equal to three times your bat has been deposited into your account.\n\n\n";
 
         }
         else

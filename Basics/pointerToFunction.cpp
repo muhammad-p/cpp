@@ -1,15 +1,15 @@
-#include <iostream>
-#include <cmath>
+//#include<iostream>
+#include<bits/stdc++.h>//this header file includes all the standard library header files
 
 
 
-int abs_compare(const int *a, const int *b)//callback function
+int abs_compare(const int &a, const int &b)//callback function //& and &b are reference variables
 {
-   if(abs(*a) > abs(*b))
+   if(abs(a) > abs(b))
        return 1;
    return -1;
 }
-int compare(const int *a, const int *b)//callback function
+int compare(const int *a, const int *b)//callback function //can use pointer instead of reference variable too but reference variable is standard and more efficient
 {
     
     if (*(a) > *(b))

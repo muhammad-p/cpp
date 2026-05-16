@@ -5,14 +5,16 @@ class AbstractEmployee
 };
 class Employee : AbstractEmployee
 {
-private: //not at all accesible outside this class
+private: //not at all accessible outside this class
     std::string name;
     int employeeID;
 
-protected: //accesible in derived classes but not accesible elsewhere
+protected: //accessible in derived classes but not accessible elsewhere
     int age;
     // getter methods
-public: //accesible anywhere in the program
+public: //accessible anywhere in the program
+    ~Employee()
+    {}
     std::string getName()
     {
         return name;
